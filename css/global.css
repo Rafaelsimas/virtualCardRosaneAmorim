@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+
+a{
+    color: inherit;
+}
+
+:root{
+    --bg-hover: #f6dde1;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+    background: rgba(241, 238, 238, 0.473);
+    -webkit-font-smoothing: antialiased;
+}
+
+.escondido{
+    display: none;
+}

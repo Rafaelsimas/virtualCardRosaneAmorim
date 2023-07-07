@@ -1,0 +1,84 @@
+
+header{
+    height: 193px;
+    width: 100%;
+    background: var(--bg-hover);
+}
+.box-header{
+    padding-top: 2rem;
+    width: 80%;
+    margin-inline: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.box-header ion-icon{
+   font-size: 1.3rem;
+}
+
+/* =====================GALERIA================= */
+
+#galeria{
+    background: rgb(248, 248, 248);
+    padding: 1.5rem;
+    margin-top: -93px;
+    width: 80%;
+    margin-inline: auto;
+}
+
+
+#galeria .box-galeria{
+    padding-top: 60px;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    justify-content: center;
+
+}
+
+#galeria .box-galeria .card-image-description{
+    width: 240px;
+    height: 240px;
+}
+#galeria .box-galeria .card-image-description img{
+    width: 240px;
+    height: 240px;
+    object-fit: cover;
+}
+
+@media (max-width:425px) {
+    .box-header{
+        width: 90%;
+        margin-inline: auto;
+        height: 93px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    #galeria{
+        background: rgb(248, 248, 248);
+        padding: 1.5rem;
+        margin-top: -93px;
+        width: 93%;
+        margin-inline: auto;
+        border-radius: 5px;
+    }
+
+    #galeria .box-galeria .card-image-description{
+        width: 280px;
+        height: 280px;
+    }
+
+    #galeria .box-galeria .card-image-description img{
+        width: 280px;
+        height: 280px;
+        object-fit: cover;
+        border-radius: 5px;
+    }
+
+    #galeria .box-galeria{
+       display: flex;
+    }
+}
